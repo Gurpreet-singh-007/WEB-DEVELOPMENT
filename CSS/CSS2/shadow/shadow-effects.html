@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #shadow{
+            text-shadow: 2px 2px rgb(239, 7, 7);
+            /* forblureffect */
+            text-shadow: 2px 2px 2px rgb(239, 7, 7); 
+            /* formultipleblurshaadowsofdifferentcolor */
+            text-shadow: 2px 2px 2px rgb(239, 7, 7) , 4px 4px 4px aqua;
+        }
+        #cont{
+            display: flex;
+        }
+        #box{
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            box-shadow: 5px 5px green;
+        }
+        #box2{
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            box-shadow: -5px 5px green;
+        }
+        #box3{
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            box-shadow: 5px 5px rgb(0, 0, 0) , -5px -5px black;
+        }
+        #borderbox{
+            padding: 10px;
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            box-shadow: 5px 5px rgb(0, 0, 0)
+                     , -5px 5px black 
+                     ,  5px -5px black
+                     , -5px -5px black;
+        }
+        #bordersr{
+            padding: 10px;
+            margin: 20px;
+            width: 150px;
+            height: 100px;
+            background-color: aqua;
+            box-shadow:0px 0px 0px 10px rgb(0, 0, 0) ;
+        }
+        #box4{
+            padding: 10px;
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            box-shadow:inset 0px 0px 5px 5px rgb(0, 0, 0) ;
+        }
+        #box5{
+            padding: 10px;
+            margin: 20px;
+            width: 150px;
+            height: 100px;
+            background-color: aqua;
+            box-shadow:5px 5px 5px 10px rgb(0, 0, 0) ;
+        }
+    </style>
+</head>
+<body>
+    <div id="text">
+        <p id="shadow">This is text.</p>
+    </div>
+    <div id="cont">
+        <div id="box">This is box</div>
+        <div id="box2" >Shadow at left and down side.</div>  
+        <div id="box3" >Multiple shadows.</div>        
+    </div>
+    <div id="cont2" style="display: flex;">
+        <div id="borderbox">Border with box shadow property.</div>
+        <div id="bordersr">Border with spread radius property.</div>
+    </div>
+    <div id="box4">Box with inner shadows.</div>
+    <div id="box5">Box with spread radius(Spread radius is used to grow or shrink the shadow effect).</div>
+</body>
+</html>

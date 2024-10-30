@@ -1,0 +1,114 @@
+#static{
+    height: 390px;
+    border : 1px solid black;
+    padding: 10px;
+}
+#statn1{
+    height: 200px;
+    width: 200px;
+    
+}
+#statn2{
+    height: 200px;
+    width: 200px;
+    
+}
+#statn3{
+    height: 200px;
+    width: 200px;
+    
+}
+#statn4{
+    height: 200px;
+    width: 200px;
+    
+}
+#fix{
+    position: absolute;
+    left: 890px;
+    bottom:490px;
+}
+#fig1{
+    position: fixed;
+    padding: 0;
+    border: 1px solid black;
+    min-height: 250px;
+    width: 250px;
+}
+#figc1{
+    font-size: larger;
+    font-weight: 1000;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#i1{
+    height: 200px;
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#figc2{
+    padding: 20px;
+    font-weight: 800;
+}
+#Relative{
+    border : 1px solid black;
+    padding: 10px;
+    min-height: 420px;
+    margin-top: 20px;
+}
+#relativen1{
+    height: 200px;
+    width: 200px;
+
+}
+#relativen2{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 200px;
+    width: 200px;
+    
+}
+#relativen3{
+    height: 200px;
+    width: 200px;
+    
+}
+#relativen4{
+    height: 200px;
+    width: 200px;
+    
+}
+#abs{
+    border : 1px solid black;
+    padding: 10px;
+    height: 420px;
+    margin-top: 20px;
+    min-height: 400px;
+}
+#dabs{
+    position: relative;
+}
+#absn1{
+    height: 200px;
+    width: 200px;
+
+}
+#absn2{
+    position: absolute;
+    top: 120px;
+    height: 200px;
+    width: 200px;
+    
+}
+#absn3{
+    height: 200px;
+    width: 200px;
+    
+}
+#absn4{
+    height: 200px;
+    width: 200px;
+    
+}

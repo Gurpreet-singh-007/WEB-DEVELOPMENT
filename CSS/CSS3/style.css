@@ -1,0 +1,36 @@
+.cont{
+    height: 400px;
+    width: 100%;
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    /* (Values nowrap(default) , wrap , wrap-reverse) */
+    justify-content: center;
+    /* values(flex-start ,flex-end ,center ,space-around , space-evenly, space-between) */
+    align-items: center ;
+    /* values(Strect(default) ,flex-start , flex-end , center , baseline  ) */
+    gap: 10px;
+    /* align-content: center; */
+    /* values(flex-start ,flex-end ,center ,space-around , space-evenly, space-between) */
+
+    /* flex-direction: column; */
+    /* Values(row(default) , column , row-reverse , column-reverse) */
+    /* flex-flow: (it is a shorthand property of flex-direction and flex-wrap respectively) */
+}
+.box{
+    /* width: 200px; */
+    border: 2px solid rgb(0, 179, 255);
+    background-color: aquamarine;
+    /* flex-grow: 1; */
+    /* flex-basis: 200px; */
+    /* flex-basis is same as min-height*/
+    /* flex is shorthand property of order , flex-grow , flex-height , flex-basis */
+}
+#box1{
+    order: 2;
+    align-self: stretch;
+}
+#box2{
+    align-self: flex-start;
+}
+

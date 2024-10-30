@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.cont{
+    margin: 10px;
+    width: calc(100%-20px);
+    height: 50px;
+    border: 1px solid black;
+    align-content: center;
+}
+.slide{
+    animation: 10s ease .5s infinite alternate slider;
+    /*  duration time-function delay iteration-count direction (normal , reverse , alternate , alternate-reverse) fill-mode play-state name */
+    /* animation: delay direction duration fill-mode iteration-count name play-state timeline timeline-function */
+}
+.ball{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: aqua;
+    place-content: center center;
+    /* align-content: center; */
+    animation: 5s linear .5s infinite alternate ball;
+}
+@keyframes slider{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        /* transform: translateX(95vw) ; */
+    }
+}
+@keyframes ball{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        /* transform: translateX(95vw) rotate(720deg); */
+    }
+}
+.cont1{
+    display: flex;
+    margin: 10px;
+    width: calc(100%-20px);
+    height: 250px;
+    border: 1px solid hidden;
+    background-color: rgb(163, 216, 237);
+    justify-content: center;
+    animation: 5s linear .5s 1 forwards sky;
+    animation-fill-mode: forwards;
+}
+@keyframes sky{
+    /* 50%{
+        background-color: rgb(255, 166, 0);
+    } */
+    100%{
+        background-color: rgb(255, 224, 101);
+    }
+}
+.sun{
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+    border: none;
+    border-radius: 100%;
+    background-color: rgb(229, 255, 0);
+    animation: 5s linear .5s 1 alternate sun-rise;
+    animation-fill-mode: both;
+}
+@keyframes sun-rise{
+    0%{
+        transform: translateY(220px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(220px);
+    }
+}

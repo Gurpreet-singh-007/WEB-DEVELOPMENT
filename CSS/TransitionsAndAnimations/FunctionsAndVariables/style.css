@@ -1,0 +1,22 @@
+:root{
+    --darkred: #9812ac ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* --darkred:#9812ac; */
+    /* Not a best practise , to declare global variables in the universal selector.*/
+}
+.cont{
+    background-color: var(--darkred);
+    border: 1px solid black;
+    height: calc(50vh - 5px);
+    /* calc function to make calculation */
+    width: min(300px , 50vw ,25em);
+    /* min function to take minimum value. */
+}
+.box{
+    background-color: aquamarine;
+    color: var(--darkred);
+}

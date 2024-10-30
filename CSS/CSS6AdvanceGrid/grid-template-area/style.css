@@ -1,0 +1,35 @@
+.container{
+    /* width: 100%; */
+    /* height: auto; */
+    display: grid;
+    background-color: lightblue;
+    border: 5px solid lightslategrey;
+    /* grid-template-rows: 50px 150px 200px 50px;
+    grid-template-columns: 600px; */
+
+
+    grid-template-rows: 50px 300px 50px;
+    grid-template-columns: 200px 400px;
+
+    grid-template-areas: 
+    "head head"
+    "side main"
+    "foot foot";
+}
+.content{
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+#head{
+    grid-area:head;
+}
+#side{
+    grid-area: side;
+}
+#main{
+    grid-area: main;
+}
+#foot{
+    font-family: 'Segoe UI';
+    grid-area: foot;
+}

@@ -1,0 +1,53 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+</head>
+<body>
+    <input type="text" id="taskInput" placeholder="Add a new task...">
+    <button id="addTaskBtn">Add</button>
+    <ul id="taskList"></ul>
+
+    <script>
+        document.getElementById('addTaskBtn').addEventListener('click', function() {
+            let taskInput = document.getElementById('taskInput').value;
+            if (taskInput === '') return; // Do nothing if input is empty
+
+            let li = document.createElement('li');
+            li.textContent = taskInput;
+
+            // Add delete button
+            let deleteBtn = document.createElement('button');
+            deleteBtn.textContent = 'Delete';
+            deleteBtn.addEventListener('click', function() {
+                li.remove();
+            });
+
+            li.appendChild(deleteBtn);
+            document.getElementById('taskList').appendChild(li);
+
+            // Clear input field
+            document.getElementById('taskInput').value = '';
+        });
+    </script>
+</body>

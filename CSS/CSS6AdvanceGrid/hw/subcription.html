@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .cont{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form{
+            width: 250px;
+            box-shadow: 0px 0px 5px 2px rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(216, 216, 216);
+        }
+        h1{
+            color: #444444;
+            text-align: center;
+            padding: 20px ;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .tf{
+            padding: 10px;
+        }
+        input{
+            padding: 10px;
+            border-radius: 5em;
+            border: none;
+        }
+        ::placeholder{
+            color: black;
+            font-weight: bold;
+        }
+        #button{
+            margin-top: 20px;
+            margin-bottom: 20px ;
+            width: 100%;
+            background-color: black;
+            color: white;
+        }
+        #button:hover{
+            color: #cbc6c6;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="form">
+            <h1 id="title">Subscribe</h1>
+            <form>
+                <div class="tf">
+                    <input type="Username" placeholder="Username" required>
+                </div>
+                <div class="tf">
+                    <input type="Email address" placeholder="Email" required>
+                </div>
+                <div class="tf">
+                    <input type="Password" placeholder="Password" required>
+                </div>
+                <input id="button" type="submit" value="Subscribe">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

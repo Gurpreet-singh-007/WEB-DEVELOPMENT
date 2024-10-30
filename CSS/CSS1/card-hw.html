@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: mediumslateblue;
+        }
+        .card{
+            background-color: beige;
+            border: 1px solid black;
+            max-width: 358.4px;
+            min-width: 358.4px;
+            padding: 10px;
+        }
+        .fig{
+            margin: 0px;
+        }
+        .figc{
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-variation-settings:
+            "slnt" 0;
+            margin-top: 15px;
+            }
+        .img{
+            width: 358.4px;
+            height: 201.6px;
+            border-radius: 5px;
+        }
+        .outer{
+            margin-top: 10px;
+        }
+        .in{
+            display: inline;
+            margin-right: 12px;
+        }
+        #current{
+            color: rgb(110, 150, 207);
+        }
+        #off{
+            background-color : #1CCA97;
+            color: white;
+            border-radius:  5px;
+            padding: 4px;
+            tab-size: 4px ;
+        }
+    </style>
+</head>
+<body>
+    <section class="card">
+        <figure class="fig">
+            <img class="img" src="dot-batch-image.webp" alt="Web-dev-course">
+            <figcaption class="figc">
+                Web Development Master Course @dot Batch
+                <hr>
+                <div class="outer">
+                    <span><p class="in" id="current">&#x20B9;4500 </p></span>
+                    <span> <del> <p class="in" id="original">&#x20B9;6999 </p> </del> </span>
+                    <span><p class="in" id="off">42% off</p></span>
+                </div>
+            </figcaption>
+        </figure>
+    </section>
+</body>
+</html>

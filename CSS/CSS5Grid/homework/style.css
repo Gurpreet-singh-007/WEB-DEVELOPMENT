@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EFE6DD;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+#card{
+    display: grid;
+    grid-template-columns: 490px 330px;
+    grid-template-rows: 330px;
+    
+}
+#divimg{
+    width: 490px;
+    height: 330px;
+    border-radius: 5% 0 0 5% ;
+    border: 2px solid #B0A997;
+    border-right: none;
+}
+#img{
+    width:488px;
+    height: 328px;
+    border-radius: 4% 0 0 5% ;
+}
+#content{
+    padding: 25px;
+    border-radius: 0 5% 5% 0;
+    border: 2px solid #B0A997;
+    border-left: none;
+    background-color: white;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: rgb(100, 100, 100);
+}
+h2{
+    margin-top: 10px;
+    font-family:Serif;
+    width: 150px;
+}
+#description{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+    color: #7c7c7c;
+}
+#price{
+    display: grid;
+    grid-template-columns: 85px 50px;
+    margin-top: 15px;
+}
+#now{
+    font-size: 35px;
+    font-family: serif;
+    font-weight: bold;
+    color: #34745A;
+}
+#original{
+    padding-bottom: 4px;
+    align-content: end;
+    font-size:18px;
+    font-family: sans-serif;
+    color: #68696E;
+}
+button{
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #34745A;
+}
+button:hover{
+    background-color: #00452a;
+}
+i{
+    margin-right: 10px;
+}

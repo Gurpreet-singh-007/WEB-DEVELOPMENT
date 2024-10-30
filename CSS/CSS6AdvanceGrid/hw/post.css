@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#headersub{
+    color: rgb(132, 131, 131);
+    align-content: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+#headertitle{
+    color: black;
+    text-decoration: none;
+}
+#headertitle:hover , #headersub:hover{
+    text-decoration: underline;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+}
+.icon:hover{
+    background-color: rgb(199, 199, 199);
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 30vw;
+    grid-template-areas: 
+    "main section" ;
+    padding: 20px;
+    gap: 10px;
+}
+#main{
+    padding: 10px;
+}
+h2{
+    font-size: 2em;
+    padding: 3px;
+}
+#postdate{
+    font-size: small;
+    font-family: sans-serif;
+    color: rgb(147, 147, 147);
+}
+.link{
+    color: rgb(74, 120, 227);
+}
+.para{
+    font-family: sans-serif;
+    font-size: medium;
+    line-height: 1.3em;
+    margin: 10px 0px 10px 0px;
+}
+.paramain{
+    border: 1px solid black;
+    padding: 2px;
+}
+.h3{
+    font-size: 1.5em;
+}
+.h4{
+    font-size: 1.5em;
+}
+ul , ol{
+    padding-left: 25px;
+    font-size: 1.1em;
+}
+.older{
+    padding: 8px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid  rgb(30, 98, 255) ;
+    border-radius: 100px;
+    color:  rgb(74, 120, 227) ;
+}
+button{
+    padding: 8px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid  rgb(138, 138, 138) ;
+    border-radius: 100px;
+    color:  rgb(138, 138, 138) ;
+}
+#about{
+    margin: 20px 0px 10px 0px;
+    padding: 10px;
+    background-color: #F6F7F9;
+}
+#about .h4{
+    font-style: italic;
+    padding-bottom: 5px;
+}
+#archives{
+    margin: 10px 0px 10px 0px;
+}
+#archives h4{
+    font-style: italic;
+    padding-bottom: 5px;
+}
+#archives .link{
+    display: block ;
+    line-height: 1.3em;
+}
+#elsewhere{
+    margin-top: 10px ;
+}
+#elsewhere h4{
+    font-style: italic;
+}
+#elsewhere .link{
+    display: block;
+    line-height: 1.3em;
+}

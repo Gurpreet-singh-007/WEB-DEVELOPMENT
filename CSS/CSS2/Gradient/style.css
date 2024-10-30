@@ -1,0 +1,37 @@
+#linear{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    height: 200px;
+    width: 120px;
+    background-image: linear-gradient(to bottom right , rgb(92, 240, 92),rgb(1, 49, 1));
+    background-image: linear-gradient(45deg ,white , black);
+    background-image: linear-gradient(180deg ,rgba(251, 34, 34, 0.923) , rgba(244, 229, 229, 0.862) , rgba(9, 116, 41, 0.905));
+}
+#radial{
+    border: 5px solid black;
+    margin: 20px;
+    padding: 20px;
+    font-size: large;
+    height: 200px;
+    width: 200px;
+    color: white;
+    background-image: radial-gradient(lightblue,blue);
+    background-image: radial-gradient(yellow 10% ,orange 25% , red );
+}
+#conic{
+    color: white;
+    font-size: 30px;
+    border: 10px solid black;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    line-height: 200px;
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red , yellow ,blue);
+    background-image: conic-gradient(red 120deg, yellow 240deg,blue 360deg);
+    background-image: repeating-conic-gradient( white 0deg 7.5deg, blue 7.5deg 15deg);
+    background-image: repeating-conic-gradient(red 4.16% ,yellow 8.32%);
+    border-radius: 50%;
+}

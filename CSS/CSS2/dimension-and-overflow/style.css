@@ -1,0 +1,60 @@
+#maxmin{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    max-height: 100px;
+}
+#maxmax{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    max-height: 100px;
+}
+/* #min{
+    margin-top: 350px;
+} */
+#minmin{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    min-height: 100px;
+}
+#minmax{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    min-height: 100px;
+}
+#cont{
+    margin-top: 100px;
+    /* min-height: 250px; */
+    border: 1px solid hidden;
+}
+#sol{
+    display: flex;
+    height: 480px;
+    border: 1px solid black;
+}
+#visiex{
+    border: 1px solid black;
+    max-height: 50px;
+    overflow: visible;
+}
+#hidex{
+    border: 1px solid black;
+    max-height: 50px;
+    overflow: hidden;
+}
+#screx{
+    border: 1px solid black;
+    max-height: 50px;
+    overflow: scroll;
+}
+#autoex{
+    border: 1px solid black;
+    max-height: 50px;
+    overflow: auto;
+}
+#visible,#hidden,#scroll,#auto{
+    margin: 15px;
+}
