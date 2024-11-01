@@ -1,6 +1,7 @@
 // JavaScript Events =  Actions or Occurences that happen in the browser. They can be triggered by various user interactions or by the browser itself.
 // Interface =  A set of method signatures that a class must implement.(Blueprint)
 // Event Target = An interface which can be implemented by objects that can receive events and may have listeners(how that events reacts) for them.
+
 // Methods in Event Target
 // Creating an event target.
 let event1 = document.querySelector('.head');
