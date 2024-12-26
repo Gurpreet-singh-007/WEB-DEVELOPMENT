@@ -1,0 +1,28 @@
+.New_form{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.form-div1{
+    display: flex;
+    justify-content: center;
+}
+
+.form-div{
+    margin-block: 10px;
+}
+
+.form-div1 button{
+    color: white;
+    background-color: peru;
+    border: none;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+}

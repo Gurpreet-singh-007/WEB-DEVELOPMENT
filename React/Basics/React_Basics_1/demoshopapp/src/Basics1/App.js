@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import Item from './components/Item'   ;
-import ItemDate from './components/ItemDate';
-import Card from './components/card';
+import Item from './components1/Item'   ;
+import ItemDate from './components1/ItemDate';
+import Card from './components1/card';
 
 function App() {
   const item2date = 55 ; 

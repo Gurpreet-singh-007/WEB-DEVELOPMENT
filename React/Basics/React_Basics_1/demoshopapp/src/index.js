@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+// // for basics 1 
+// import './index.css';
+// import App from './Basics1/App';
+// import reportWebVitals from './reportWebVitals';
+
+// for basics 2 
 import './index.css';
-import App from './App';
+import App from './Basics2/App';
 import reportWebVitals from './reportWebVitals';
+// import { useState } from 'react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

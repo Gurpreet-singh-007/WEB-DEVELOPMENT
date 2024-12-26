@@ -1,0 +1,14 @@
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: grey;
+}
+.Add{
+    position: absolute;
+    right: 5%;
+}
