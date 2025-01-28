@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family : sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    padding: 30px;
+    border: 1px solid rgb(225, 225, 225);
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin-block: 2px;
+}
+.input-field label{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.input-field input{
+    width: 800px;
+    padding: 12px 9px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.input-field select{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.1rem;
+}
+.odd input{
+    border-radius: 5px;
+    border: 1px solid rgb(153, 153, 153);
+    border-bottom: 1px solid rgb(35, 99, 209);
+}
+.even input{
+    border-radius: 5px;
+    border: 1px solid rgb(153, 153, 153);
+    border-top: 1px solid rgb(35, 99, 209);
+}
+.byemail h3{
+    font-size: .9rem;
+    margin-block: 15px;
+}
+.checkboxes{
+    display: flex;
+    margin-block: 15px;
+}
+.checkboxes input{
+    margin-right: 15px;
+    margin-top: -25px;
+    accent-color: #3476EE;
+    width: 1rem;
+}
+.checkboxes label{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.checkboxes p{
+    margin-top: 7px;
+    color: rgb(109, 109, 109);
+}
+
+.push-notification h3{
+    font-size: .9rem;
+    margin-block: 5px;
+}
+.push-notification p{
+    color: rgb(109, 109, 109);
+    margin-block: 5px;
+}
+.push-notification input{
+    margin-right: 15px;
+    accent-color: #3476EE;
+    height: 20px;
+    width: 20px;
+}
+.push-notifications{
+    margin-block: 12px;
+    display: flex;
+}
+
+.form button{
+    padding: 15px;
+    background-color:rgb(35, 99, 209) ;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    margin-block: 5px;
+}

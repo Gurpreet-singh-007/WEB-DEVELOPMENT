@@ -1,0 +1,8 @@
+.active{
+  background-color: rgb(60, 173, 222);
+  color: white;
+}
+
+NavLink{
+  text-decoration: none;
+}

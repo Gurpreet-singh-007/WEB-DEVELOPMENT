@@ -1,0 +1,4 @@
+.button {
+    @apply
+     bg-[#161d29] text-stone-300 px-[8px] py-[8px] rounded-[8px] border border-stone-700 text-base
+}
